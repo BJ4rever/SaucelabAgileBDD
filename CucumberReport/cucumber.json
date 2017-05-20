@@ -1,0 +1,288 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6558322259,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should able to search product",
+        "description": "",
+        "id": "user-should-able-to-use-search-functionality-to-find-any-product;user-should-able-to-search-product;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 330676656,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5111015392,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Tesco home page",
+            "match": {
+              "location": "MyStepdefs.userIsOnTescoHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5902633840,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User search for any \"Tommee Tippee\"on search menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tommee Tippee",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepdefs.user_search_for_any_on_search_menu(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11747895064,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should able to view all related \"Tommee Tippee\" as a search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tommee Tippee",
+                  "offset": 38
+                }
+              ],
+              "location": "MyStepdefs.user_should_able_to_view_all_related_as_a_search_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3780136896,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should able to search product",
+        "description": "",
+        "id": "user-should-able-to-use-search-functionality-to-find-any-product;user-should-able-to-search-product;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 305081235,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3930286224,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Tesco home page",
+            "match": {
+              "location": "MyStepdefs.userIsOnTescoHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6174010292,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User search for any \"Pampers\"on search menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pampers",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepdefs.user_search_for_any_on_search_menu(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10845166679,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should able to view all related \"Pampers\" as a search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pampers",
+                  "offset": 38
+                }
+              ],
+              "location": "MyStepdefs.user_should_able_to_view_all_related_as_a_search_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4569035637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should able to search product",
+        "description": "",
+        "id": "user-should-able-to-use-search-functionality-to-find-any-product;user-should-able-to-search-product;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 364672536,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4600312121,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Tesco home page",
+            "match": {
+              "location": "MyStepdefs.userIsOnTescoHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5243823900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User search for any \"Walkers\"on search menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Walkers",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepdefs.user_search_for_any_on_search_menu(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11428560633,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should able to view all related \"Walkers\" as a search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Walkers",
+                  "offset": 38
+                }
+              ],
+              "location": "MyStepdefs.user_should_able_to_view_all_related_as_a_search_result(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "User should able to use search functionality to find any product",
+    "description": "",
+    "id": "user-should-able-to-use-search-functionality-to-find-any-product",
+    "keyword": "Feature",
+    "uri": "src/test/Resources/SauceLabAgileBDD/product.feature"
+  }
+]
