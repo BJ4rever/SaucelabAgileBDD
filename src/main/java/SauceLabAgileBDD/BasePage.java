@@ -7,6 +7,6 @@ import org.openqa.selenium.WebDriver;
  */
 public class BasePage {
 
-    //This is git push trigger comments
+
     public static WebDriver driver;
 }
