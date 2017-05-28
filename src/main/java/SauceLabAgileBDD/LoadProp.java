@@ -10,9 +10,11 @@ import java.util.Properties;
 public class LoadProp extends BasePage {
 
     static Properties prop;
+
     static FileInputStream input;
 
-    public String getProperty(String key){
+    public String getProperty(String key)
+    {
         prop = new Properties();
         try {
             input = new FileInputStream("C:\\Users\\Gamita\\IdeaProjects\\SaucelabAgileBDD\\src\\test\\Resources\\config.properties");
